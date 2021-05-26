@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TBD_RES.exe" version="1.0.0.0" publicKeyToken="b65a978dd78f3aa1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TBD_RES" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TBD_RES.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TBD_RES.exe" size="18912">
+      <assemblyIdentity name="TBD_RES" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0gtlVfyUWaPnM8H1R6OMR+gA72KF7l3qTmDfryhjh+8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database_RES.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+X6M0gRb3L3KHJZ4YuHtAM3p3pnSIhwh40u3yYaowsI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database_RES_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z4rAJxRX49PKHJd6AfAEZid2zL8CcfGkSJwuq7/Mcp4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TBD_RES.exe.config" size="399">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MXRXwqSCHljbPxi5KvPAfqPOrk3+rkJuuPhMbhCWfpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-8BF19U51\12072" issuerKeyHash="183be8deae4c1b65fc168f8a6f738ff9dbd288c4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>G4iO8kNThbMKO70fkY7EDkl3RJ7nX8ILO6YdmofY76o=</DigestValue></Reference></SignedInfo><SignatureValue>s/HewIA56VuJD6o5yY0T9LHOL3ozySkwz5o4J6fXuBlQl8xBagwOrIKzyqlH6FFi6PMnOUqI0r5HqUIEOGdm/mgbOxqhBiQLh5iOFcd9W5WdEv94+PIjtPZ2HL8KYCE+LOP6BFLCRJdIaiqqF7Igmnft1y3tZxDvpslHu+FQB3E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uttZtVU4fL1HT/1iweQdfqpD/JNlomBSGj5PCylRoSFMrglwI8OBa37DRo/354qC/YcNGKQcorBaU21oRIO+oYEzhMoSG555AjUEry0l7wix0JeR+5KAfvlTmTqA7KyJhLoUam7YoQ0ebZcHVdDJ8l6LS/yHHDkcUGxhussaIQU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aaefd8879a1da63b0bc25fe79e4477490ec48e911fbd3b0ab3855343f28e881b" Description="" Url=""><as:assemblyIdentity name="TBD_RES.exe" version="1.0.0.0" publicKeyToken="b65a978dd78f3aa1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-8BF19U51\12072</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mPNgDZ6U/FvVsmNFU82sjkz93HmdIlAqEG8K8kDVw7I=</DigestValue></Reference></SignedInfo><SignatureValue>kJP5x7zfK9PoFHUo5DsUMDfIVvANwpoeLrFNHxUlwdtQp0JExWXoeAE9Pm0N/Bf5Wbknwbq/7K1SViILZ3giyEq+AbKJK8svwEk1gE2zVmXEbX/sOJoif6blgIkCbAWUzADGEehPfdm61L+yZliPG5jXP1maC9oZGrYWZaBHM48=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uttZtVU4fL1HT/1iweQdfqpD/JNlomBSGj5PCylRoSFMrglwI8OBa37DRo/354qC/YcNGKQcorBaU21oRIO+oYEzhMoSG555AjUEry0l7wix0JeR+5KAfvlTmTqA7KyJhLoUam7YoQ0ebZcHVdDJ8l6LS/yHHDkcUGxhussaIQU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcN4Nbq0BqLxErMeurWtcezANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA4AEIARgAxADkAVQA1ADEAXAAxADIAMAA3ADIwHhcNMjEwNTI2MTc0MjA2WhcNMjIwNTI2MjM0MjA2WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA4AEIARgAxADkAVQA1ADEAXAAxADIAMAA3ADIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALrbWbVVOHy9R0/9YsHkHX6qQ/yTZaJgUho+TwspUaEhTK4JcCPDgWt+w0aP9+eKgv2HDRikHKKwWlNtaESDvqGBM4TKEhueeQI1BK8tJe8IsdCXkfuSgH75U5k6gOysiYS6FGpu2KENHm2XB1XQyfJei0v8hxw5HFBsYbrLGiEFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKTxghwwvFvj8OwICF8jUAlxNDCiGtRYRbXPq2YPvVAAg6fUnEeQb6YGiLjQRqEvaTGDPxCw1ftYBdNb9H4cMCUh/wx18wv9AwxrnhWPdgPYk3ltaCG/ugGCjrSiKSTDKllxzD5igBpIWwRhCzxV4OG0aeJhCjGJHresaS3dcs54=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
